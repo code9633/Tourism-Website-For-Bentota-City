@@ -4,34 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bentota Tourism</title>
+  <title>Bentota</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to Bentota Tourism</h1>
-  </header>
+    <section class="nav-bar">
+      <div class="logo">Bentota</div>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="homepages/heritage.html">Heritage</a></li>
+            <li><a href="homepages/hotel-booking.html">hotel booking</a></li>
+            <li><a href="homepages/gallery.html">gallery</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+    </section>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="homepages/heritage.html">Heritage</a></li>
-      <li><a href="homepages/hotel-booking.html">Hotel Booking</a></li>
-      <li><a href="homepages/gallery.html">Gallery</a></li>
-    </ul>
-  </nav>
-
-  <section>
-    <img src="images/header.jpg" alt="">
-    <h2>Discover the Beauty of Bentota</h2>
-    <p>Explore the pristine beaches, indulge in thrilling water sports, and immerse yourself in the rich cultural heritage of Bentota.</p>
-    <p>Plan your dream vacation today!</p>
+    <section class="banner">
+      <div class="banner-text-item">
+          <div class="banner-heading">
+              <h2>Welcome to <span class="bentota">Bentota!</span></h2>
+          </div>
+          <form class="form">
+              <input type="text" list="mylist" placeholder="Where would you like to go in ?">
+              <datalist id="mylist">
+                  <option>London</option>
+                  <option>Canada</option>
+                  <option>Monaco</option>
+                  <option>France</option>
+                  <option>Japan</option>
+                  <option>Switzerland</option>
+                  <option>Seoul</option>
+              </datalist>
+              <a href="/homepages/hotel-booking.html" class="book">book</a>
+          </form>
+      </div>
   </section>
 
-  <footer>
-    <p>Contact Us | Privacy Policy</p>
-  </footer>
+<!--=====================================================-->
+  <div class="footer">
+    <h3>Contact Us | Privacy Policy</h3>
+  </div>
+    
 </body>
 
 </html>
