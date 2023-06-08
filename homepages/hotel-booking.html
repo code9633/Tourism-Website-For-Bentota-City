@@ -4,58 +4,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bentota Tourism - Hotel Booking</title>
-  <link rel="stylesheet" href="../css/hotel-booking.css">
+  <title>Bentota</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to Bentota Tourism</h1>
-  </header>
+    <section class="nav-bar">
+      <div class="logo">Bentota</div>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="homepages/heritage.html">Heritage</a></li>
+            <li><a href="homepages/hotel-booking.html">hotel booking</a></li>
+            <li><a href="homepages/gallery.html">gallery</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+    </section>
 
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="heritage.html">Heritage</a></li>
-      <li><a href="hotel-booking.html">Hotel Booking</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-    </ul>
-  </nav>
-
-  <section>
-    <h2>Hotel Booking</h2>
-    <form action="booking-confirmation.html" method="post">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="hotel">Hotel:</label>
-      <select id="hotel" name="hotel" required>
-        <option value="">Select Hotel</option>
-        <option value="hotel-a">Hotel A</option>
-        <option value="hotel-b">Hotel B</option>
-        <option value="hotel-c">Hotel C</option>
-      </select>
-
-      <label for="check-in">Check-in Date:</label>
-      <input type="date" id="check-in" name="check-in" required>
-
-      <label for="check-out">Check-out Date:</label>
-      <input type="date" id="check-out" name="check-out" required>
-
-      <label for="guests">Number of Guests:</label>
-      <input type="number" id="guests" name="guests" required>
+    <section>
+      <h2>Hotel Booking</h2>
+      <form action="booking-confirmation.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
     
-      <label for="comments">Additional Comments:</label>
-      <textarea id="comments" name="comments" rows="4"></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
     
-      <input type="submit" value="Book Now">
-    </form>
-  </section>
-  <footer>
-    <p>Contact Us | Privacy Policy</p>
-  </footer>
-</body>
-</html>    
+        <label for="hotel">Hotel:</label>
+        <select id="hotel" name="hotel" required>
+          <option value="">Select Hotel</option>
+          <option value="hotel-a">Hotel A</option>
+          <option value="hotel-b">Hotel B</option>
+          <option value="hotel-c">Hotel C</option>
+        </select>
+    
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in" name="check-in" required>
+    
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out" name="check-out" required>
+    
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" required>
+      
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+      
+        <input type="submit" value="Book Now">
+      </form>
+    </section>
+
+  
+<!--=====================================================-->
+    <div class="footer">
+      <h3>Contact Us | Privacy Policy</h3>
+    </div>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
