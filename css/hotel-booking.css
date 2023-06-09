@@ -112,8 +112,7 @@ input[type="submit"]:hover {
 /*===========================================*/
 
 .footer {
-background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293781/pine-tree_mq2sgp.jpg");
-background-size: cover;
+  background-color: aquamarine;
 background-repeat: no-repeat;
 background-position: center;
 width: 100%;

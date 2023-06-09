@@ -87,7 +87,7 @@ ul.menu {
 /*===========================================*/
 
 .footer {
-background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293781/pine-tree_mq2sgp.jpg");
+  background-color: aquamarine;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
